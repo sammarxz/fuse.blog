@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A curated list of websites, art + design, videos, articles & music. Updated daily.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FUSE</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+</head>
+<body>
+    <div id="app" v-bind:class="[ isLight ? 'light' : 'dark']">
+        <div class="container">
+            <header class="page-header">
+            <svg id="fuseSwitch" width="24px" height="24px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="page-logo" @click="changeTheme" role="button">
+                <defs></defs>
+                <g id="fuseSwitch" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Group fuseSwitch" transform="translate(-162.000000, -12.000000)" fill-rule="nonzero">
+                    <path d="M178,16 C171.372583,16 166,21.372583 166,28 C166,34.627417 171.372583,40 178,40 L178,16 Z M178,44 C169.163444,44 162,36.836556 162,28 C162,19.163444 169.163444,12 178,12 C186.836556,12 194,19.163444 194,28 C194,36.836556 186.836556,44 178,44 Z" id="Combined-Shape">
+                    </path>
+                </g>
+                </g>
+                </svg>
+                <h1 class="page-title">{{ pageTitle }}</h1>
+            </header>
+            <ul class="items">
+                <li v-for="item in items" v-bind:key="item.id">
+                    <item-component v-bind:item="item" v-bind:items="sortedSubmissions"></item-component>
+                </li>
+            </ul>
+            <footer class="page-footer">
+                <a href="" class="ghost title">Suggest a link</a>
+                <ul class="social-media">
+                    <li><a href="https://www.facebook.com/fuse.blog">Facebook</a></li>
+                    <li><a href="https://twitter.com/httpFuseBlog">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/fuse.blog/">Instagam</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+    <script src="js/lib/vue.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
