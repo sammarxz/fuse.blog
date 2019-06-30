@@ -2,93 +2,65 @@
   "items": [
     {
       "id": 0,
+      "title": "Raven Kwok",
+      "category": "Website",
+      "url": "http://ravenkwok.com/",
+      "votes": 0
+    },
+    {
+      "id": 1,
+      "title": "Sam and the Plant Next Door",
+      "category": "Video",
+      "url": "https://vimeo.com/333536837",
+      "votes": 0
+    },
+    {
+      "id": 2,
+      "title": "That Yorkshire Sound",
+      "category": "Video",
+      "url": "https://vimeo.com/342692141",
+      "votes": 0
+    },
+    {
+      "id": 3,
       "title": "Arina Alexandrova",
       "category": "Website",
       "url": "https://a-r-i-s-h-a.com/",
       "votes": 0
     },
     {
-      "id": 1,
+      "id": 4,
       "title": "Philotheus Nisch",
       "category": "Art + Design",
       "url": "http://www.philotheusnisch.com",
       "votes": 0
     },
     {
-      "id": 2,
+      "id": 5,
       "title": "Speculatieve Authentication",
       "category": "Article",
       "url": "https://passwords.ai/",
       "votes": 0
     },
     {
-      "id": 3,
+      "id": 6,
       "title": "The Rise and Fall of Internet Art Communities",
       "category": "Article",
       "url": "https://www.artsy.net/article/artsy-editorial-rise-fall-internet-art-communities",
       "votes": 0
     },
     {
-      "id": 4,
+      "id": 7,
       "title": "Too Much",
       "category": "Music",
       "url": "https://youtu.be/PDm02h0L-Eo",
       "votes": 0
     },
     {
-      "id": 5,
+      "id": 8,
       "title": "Image Atlas",
       "category": "Website",
       "url": "http://www.imageatlas.org/",
-      "votes": 0
-    },
-    {
-      "id": 6,
-      "title": "Uncanny Valley Studio",
-      "category": "Website",
-      "url": "https://www.uncannyvalley.studio/",
-      "votes": 0
-    },
-    {
-      "id": 7,
-      "title": "WebGL Water",
-      "category": "Website",
-      "url": "http://madebyevan.com/webgl-water/",
-      "votes": 0
-    },
-    {
-      "id": 8,
-      "title": "Cookbook Magazine",
-      "category": "Art + Design",
-      "url": "http://cookbookmagazine.es/",
-      "votes": 0
-    },
-    {
-      "id": 9,
-      "title": "The Brand Identity",
-      "category": "Art + Design",
-      "url": "https://the-brandidentity.com/",
-      "votes": 0
-    },
-    {
-      "id": 10,
-      "title": "EARFQUAKE",
-      "category": "Music",
-      "url": "https://www.youtube.com/watch?v=HmAsUQEFYGI",
-      "votes": 0
-    },
-    {
-      "id": 11,
-      "title": "Rio Grande",
-      "category": "Art + Design",
-      "url": "http://riogrande.xyz/",
-      "votes": 0
-    },
-    {
-      "id": 12,
-      "title": "Finding ctrl",
-      "category": "Website",
-      "url": "https://findingctrl.nesta.org.uk/",
       "votes": 0
     }
   ]
